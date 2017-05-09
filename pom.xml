@@ -7,16 +7,16 @@
 
     <parent>
         <groupId>org.mule.extensions</groupId>
-        <artifactId>mule-extensions-parent</artifactId>
+        <artifactId>mule-modules-parent</artifactId>
         <version>4.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>mule-ce-extensions-parent</artifactId>
+    <artifactId>mule-core-modules-parent</artifactId>
     <version>4.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Mule CE Extensions Parent POM</name>
-    <description>Mule extensions that augment the core Mule functionality through the Mule Extension API</description>
+    <name>Mule Core Modules Parent POM</name>
+    <description>Mule modules that augment the core Mule functionality through the Mule Extension API</description>
 
     <properties>
         <aspectjVersion>1.8.5</aspectjVersion>
