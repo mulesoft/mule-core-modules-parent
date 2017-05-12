@@ -27,6 +27,11 @@
         <formatterConfigPath>formatter.xml</formatterConfigPath>
         <formatterGoal>validate</formatterGoal>
         <skipVerifications>false</skipVerifications>
+
+        <muleSchedulerServiceVersion>1.0.0-SNAPSHOT</muleSchedulerServiceVersion>
+        <muleHttpServiceVersion>1.0.0-SNAPSHOT</muleHttpServiceVersion>
+        <muleOAuthServiceVersion>1.0.0-SNAPSHOT</muleOAuthServiceVersion>
+        <muleSoapServiceVersion>1.0.0-SNAPSHOT</muleSoapServiceVersion>
     </properties>
 
     <scm>
