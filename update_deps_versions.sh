@@ -28,7 +28,6 @@ updateParentVersion() {
 }
 
 VERSION_TO_DEPS=$1
-VERSION_TO_MULE=$2
 
 # Properties with releaseVersion in the root pom.xml
 propertiesDeps=("muleSchedulerServiceVersion"
@@ -38,4 +37,4 @@ propertiesDeps=("muleSchedulerServiceVersion"
 
 updatePropertiesVersion "$VERSION_TO_DEPS" pom.xml propertiesDeps[@]
 
-updateParentVersion "$VERSION_TO_MULE" pom.xml
+updateParentVersion "$VERSION_TO_DEPS" pom.xml
