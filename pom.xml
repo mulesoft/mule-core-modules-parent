@@ -22,7 +22,7 @@
         <aspectjVersion>1.8.5</aspectjVersion>
         <allureJunitVersion>1.4.23</allureJunitVersion>
         <allure.maven.plugin.version>2.5</allure.maven.plugin.version>
-        <javaFormatter.plugin.version>1.8.0</javaFormatter.plugin.version>
+        <javaFormatter.plugin.version>2.0.1</javaFormatter.plugin.version>
         <javaVersion>1.8</javaVersion>
         <formatterConfigPath>formatter.xml</formatterConfigPath>
         <formatterGoal>validate</formatterGoal>
@@ -64,7 +64,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.marvinformatics.formatter</groupId>
+                <groupId>net.revelc.code.formatter</groupId>
                 <artifactId>formatter-maven-plugin</artifactId>
                 <version>${javaFormatter.plugin.version}</version>
                 <configuration>
@@ -73,7 +73,6 @@
                     <compilerTargetPlatform>${javaVersion}</compilerTargetPlatform>
                     <configFile>${basedir}/${formatterConfigPath}</configFile>
                     <configJsFile>${basedir}/${formatterConfigPath}</configJsFile>
-                    <lineEnding>LF</lineEnding>
                     <aggregator>false</aggregator>
                     <executionRoot>true</executionRoot>
                 </configuration>
