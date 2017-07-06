@@ -15,6 +15,14 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:parser:1.2.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:core-modules:1.2.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:debugger:1.2.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-extensions-soap-api:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.services:mule-service-weave:mule-service:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:runtime:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:wlang:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:core:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:parser:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:core-modules:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:debugger:2.0.0-BETA" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: ru.yandex.qatools.allure:allure-junit-adaptor:1.4.23" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: ru.yandex.qatools.allure:allure-java-aspects:1.4.23" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: ru.yandex.qatools.allure:allure-java-adaptor-api:1.4.23" level="project" />
@@ -27,11 +35,11 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.9.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: ru.yandex.qatools.properties:properties-loader:1.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-beanutils:commons-beanutils-core:1.8.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-extensions-api:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-extensions-api" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.guava:guava:18.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.reactivestreams:reactive-streams:1.0.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-api:1.0.0-BETA.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-metadata-model-api:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-api" scope="PROVIDED" />
+    <orderEntry type="module" module-name="mule-metadata-model-api" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.gson:gson:2.6.2" level="project" />
@@ -49,7 +57,7 @@
     <orderEntry type="module" module-name="mule-module-dsl-api" scope="PROVIDED" />
     <orderEntry type="module" module-name="mule-module-http-policy-api" scope="PROVIDED" />
     <orderEntry type="module" module-name="mule-module-policy-api" scope="PROVIDED" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-message-metadata-model:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-message-metadata-model" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.stephenc.eaio-uuid:uuid:3.4.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.stephenc.eaio-grabbag:grabbag:1.8.1" level="project" />
@@ -84,14 +92,14 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: dom4j:dom4j:1.6.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: jaxen:jaxen:1.1.1" level="project" />
     <orderEntry type="module" module-name="mule-module-extensions-support" scope="PROVIDED" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-extensions-api-dsql:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-extensions-api-dsql" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.antlr:antlr-runtime:3.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-extensions-api-persistence:1.0.0-BETA.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-metadata-model-persistence:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-extensions-api-persistence" scope="PROVIDED" />
+    <orderEntry type="module" module-name="mule-metadata-model-persistence" scope="PROVIDED" />
     <orderEntry type="module" module-name="mule-service-oauth-api" scope="PROVIDED" />
     <orderEntry type="module" module-name="mule-module-extensions-soap-support" scope="PROVIDED" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-extensions-soap-api:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-extensions-soap-api" scope="PROVIDED" />
     <orderEntry type="module" module-name="mule-service-soap-api" scope="PROVIDED" />
     <orderEntry type="module" module-name="mule-module-tls" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: jboss:javassist:3.7.ga" level="project" />
@@ -105,23 +113,23 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="Maven: joda-time:joda-time:2.9.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-metadata-model-xml:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-metadata-model-xml" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: xerces:xercesImpl:2.11.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: xml-apis:xml-apis:1.4.01" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: stax:stax-api:1.0.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-metadata-model-java:1.0.0-BETA.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.runtime:mule-metadata-model-json:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-metadata-model-java" scope="PROVIDED" />
+    <orderEntry type="module" module-name="mule-metadata-model-json" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.everit.json:org.everit.json.schema:1.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.everit.osgi.bundles:org.everit.osgi.bundles.org.json:1.0.0-v20140107" level="project" />
     <orderEntry type="module" module-name="mule-module-service" scope="PROVIDED" />
     <orderEntry type="module" module-name="mule-module-container" scope="PROVIDED" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.services:mule-service-weave:mule-service:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.services:mule-service-weave:mule-service:2.0.0-BETA.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.scala-lang:scala-library:2.12.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:runtime:2.0.0-BETA" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:wlang:2.0.0-BETA" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:core:2.0.0-BETA" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:parser:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:runtime:2.0.0-BETA.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:wlang:2.0.0-BETA.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:core:2.0.0-BETA.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:parser:2.0.0-BETA.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.parboiled:parboiled_2.12:2.1.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.chuusai:shapeless_2.12:2.3.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.typelevel:macro-compat_2.12:1.1.1" level="project" />
@@ -131,11 +139,11 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.scala-lang:scala-reflect:2.12.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.typelevel:algebra_2.12:0.7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.typelevel:cats-kernel_2.12:0.9.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:core-modules:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:core-modules:2.0.0-BETA.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml:aalto-xml:1.0.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:debugger:2.0.0-BETA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mule.weave:debugger:2.0.0-BETA.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.helger:jcodemodel:2.8.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.findbugs:annotations:2.0.3" level="project" />
     <orderEntry type="module" module-name="mule-tests-functional" scope="TEST" />
@@ -158,8 +166,8 @@
     <orderEntry type="module" module-name="mule-module-service" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="mule-module-artifact" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="mule-tests-runner" scope="TEST" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.mule:mule-maven-client-api:1.0.0-BETA.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.mule:mule-maven-client-impl:1.0.0-BETA.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="mule-maven-client-api" scope="TEST" />
+    <orderEntry type="module" module-name="mule-maven-client-impl" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.aether:aether-transport-http:1.0.2.v20150114" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpclient:4.2.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpcore:4.2.5" level="project" />
