@@ -104,9 +104,6 @@
                                 <value>${project.build.directory}/allure-results</value>
                             </property>
                         </systemProperties>
-                        <systemPropertyVariables>
-                            <allure.profile.is.activated>true</allure.profile.is.activated>
-                        </systemPropertyVariables>
                     </configuration>
                     <dependencies>
                         <dependency>
