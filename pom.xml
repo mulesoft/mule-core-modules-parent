@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
-        <version>1.0.0-BETA.x-SNAPSHOT</version>
+        <version>1.0.0-BETA.5</version>
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
@@ -28,10 +28,10 @@
         <formatterGoal>validate</formatterGoal>
         <skipVerifications>false</skipVerifications>
 
-        <muleSchedulerServiceVersion>1.0.0-BETA.x-SNAPSHOT</muleSchedulerServiceVersion>
-        <muleHttpServiceVersion>1.0.0-BETA.x-SNAPSHOT</muleHttpServiceVersion>
-        <muleOAuthServiceVersion>1.0.0-BETA.x-SNAPSHOT</muleOAuthServiceVersion>
-        <muleSoapServiceVersion>1.0.0-BETA.x-SNAPSHOT</muleSoapServiceVersion>
+        <muleSchedulerServiceVersion>1.0.0-BETA.5</muleSchedulerServiceVersion>
+        <muleHttpServiceVersion>1.0.0-BETA.5</muleHttpServiceVersion>
+        <muleOAuthServiceVersion>1.0.0-BETA.5</muleOAuthServiceVersion>
+        <muleSoapServiceVersion>1.0.0-BETA.5</muleSoapServiceVersion>
     </properties>
 
     <scm>
