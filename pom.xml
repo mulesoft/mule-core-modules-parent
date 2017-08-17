@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
-        <version>1.0.0-rc.cyborg</version>
+        <version>1.0.0-rc.cyborg-SNAPSHOT</version>
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
@@ -29,10 +29,10 @@
         <formatterGoal>validate</formatterGoal>
         <skipVerifications>false</skipVerifications>
 
-        <muleSchedulerServiceVersion>1.0.0-rc.cyborg</muleSchedulerServiceVersion>
-        <muleHttpServiceVersion>1.0.0-rc.cyborg</muleHttpServiceVersion>
-        <muleOAuthServiceVersion>1.0.0-rc.cyborg</muleOAuthServiceVersion>
-        <muleSoapServiceVersion>1.0.0-rc.cyborg</muleSoapServiceVersion>
+        <muleSchedulerServiceVersion>1.0.0-rc.cyborg-SNAPSHOT</muleSchedulerServiceVersion>
+        <muleHttpServiceVersion>1.0.0-rc.cyborg-SNAPSHOT</muleHttpServiceVersion>
+        <muleOAuthServiceVersion>1.0.0-rc.cyborg-SNAPSHOT</muleOAuthServiceVersion>
+        <muleSoapServiceVersion>1.0.0-rc.cyborg-SNAPSHOT</muleSoapServiceVersion>
     </properties>
 
     <scm>
