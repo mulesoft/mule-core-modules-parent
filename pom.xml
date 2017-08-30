@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
-        <version>1.0.0-rc.darkseid-SNAPSHOT</version>
+        <version>1.0.0-rc.darkseid</version>
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
@@ -29,10 +29,10 @@
         <formatterGoal>validate</formatterGoal>
         <skipVerifications>false</skipVerifications>
 
-        <muleSchedulerServiceVersion>1.0.0-rc.darkseid-SNAPSHOT</muleSchedulerServiceVersion>
-        <muleHttpServiceVersion>1.0.0-rc.darkseid-SNAPSHOT</muleHttpServiceVersion>
-        <muleOAuthServiceVersion>1.0.0-rc.darkseid-SNAPSHOT</muleOAuthServiceVersion>
-        <muleSoapServiceVersion>1.0.0-rc.darkseid-SNAPSHOT</muleSoapServiceVersion>
+        <muleSchedulerServiceVersion>1.0.0-rc.darkseid</muleSchedulerServiceVersion>
+        <muleHttpServiceVersion>1.0.0-rc.darkseid</muleHttpServiceVersion>
+        <muleOAuthServiceVersion>1.0.0-rc.darkseid</muleOAuthServiceVersion>
+        <muleSoapServiceVersion>1.0.0-rc.darkseid</muleSoapServiceVersion>
     </properties>
 
     <scm>
