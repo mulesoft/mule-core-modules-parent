@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
-        <version>1.0.0-rc-SNASPHOT</version>
+        <version>1.0.0-rc-SNAPSHOT</version>
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
@@ -29,10 +29,10 @@
         <formatterGoal>validate</formatterGoal>
         <skipVerifications>false</skipVerifications>
 
-        <muleSchedulerServiceVersion>1.0.0-rc-SNASPHOT</muleSchedulerServiceVersion>
-        <muleHttpServiceVersion>1.0.0-rc-SNASPHOT</muleHttpServiceVersion>
-        <muleOAuthServiceVersion>1.0.0-rc-SNASPHOT</muleOAuthServiceVersion>
-        <muleSoapServiceVersion>1.0.0-rc-SNASPHOT</muleSoapServiceVersion>
+        <muleSchedulerServiceVersion>1.0.0-rc-SNAPSHOT</muleSchedulerServiceVersion>
+        <muleHttpServiceVersion>1.0.0-rc-SNAPSHOT</muleHttpServiceVersion>
+        <muleOAuthServiceVersion>1.0.0-rc-SNAPSHOT</muleOAuthServiceVersion>
+        <muleSoapServiceVersion>1.0.0-rc-SNAPSHOT</muleSoapServiceVersion>
     </properties>
 
     <scm>
