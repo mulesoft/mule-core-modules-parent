@@ -149,6 +149,11 @@
                                 <value>io.qameta.allure.junit4.AllureJunit4</value>
                             </property>
                         </properties>
+                        <systemPropertyVariables>
+                            <!-- Just propagate this variable due to surefire will not do this when forked vm for tests -->
+                            <maven.multiModuleProjectDirectory>${maven.multiModuleProjectDirectory}</maven.multiModuleProjectDirectory>
+                            <maven.projectVersion>${project.version}</maven.projectVersion>
+                        </systemPropertyVariables>
                         <systemProperties>
                             <property>
                                 <name>allure.results.directory</name>
