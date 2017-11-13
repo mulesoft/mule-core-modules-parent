@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
@@ -30,10 +30,10 @@
         <formatterGoal>validate</formatterGoal>
         <skipVerifications>false</skipVerifications>
 
-        <muleSchedulerServiceVersion>1.0.0-SNAPSHOT</muleSchedulerServiceVersion>
-        <muleHttpServiceVersion>1.0.0-SNAPSHOT</muleHttpServiceVersion>
-        <muleOAuthServiceVersion>1.0.0-SNAPSHOT</muleOAuthServiceVersion>
-        <muleSoapServiceVersion>1.0.0-SNAPSHOT</muleSoapServiceVersion>
+        <muleSchedulerServiceVersion>1.0.0</muleSchedulerServiceVersion>
+        <muleHttpServiceVersion>1.0.0</muleHttpServiceVersion>
+        <muleOAuthServiceVersion>1.0.0</muleOAuthServiceVersion>
+        <muleSoapServiceVersion>1.0.0</muleSoapServiceVersion>
     </properties>
 
     <scm>
