@@ -29,6 +29,7 @@
         <formatterConfigPath>formatter.xml</formatterConfigPath>
         <formatterGoal>validate</formatterGoal>
         <skipVerifications>false</skipVerifications>
+        <exportedPackagesValidator.strictValidation>true</exportedPackagesValidator.strictValidation>
 
         <muleSchedulerServiceVersion>1.1.0-SNAPSHOT</muleSchedulerServiceVersion>
         <muleHttpServiceVersion>1.1.0-SNAPSHOT</muleHttpServiceVersion>
