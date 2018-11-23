@@ -33,7 +33,7 @@
 
         <!--TODO: These versions should be downgraded to the one packaged in the current Min Mule Version when releasing -->
         <muleSchedulerServiceVersion>1.1.7-SNAPSHOT</muleSchedulerServiceVersion>
-        <muleHttpServiceVersion>1.1.4</muleHttpServiceVersion>
+        <muleHttpServiceVersion>1.2.0-SNAPSHOT</muleHttpServiceVersion>
         <muleOAuthServiceVersion>1.1.5-SNAPSHOT</muleOAuthServiceVersion>
         <muleSoapServiceVersion>1.1.8-SNAPSHOT</muleSoapServiceVersion>
     </properties>
