@@ -8,11 +8,11 @@
     <parent>
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
-        <version>1.2.0-SNAPSHOT</version>
+        <version>1.2.0</version>
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0</version>
     <packaging>pom</packaging>
 
     <name>Mule Core Modules Parent POM</name>
@@ -31,10 +31,10 @@
         <skipVerifications>false</skipVerifications>
         <exportedPackagesValidator.strictValidation>true</exportedPackagesValidator.strictValidation>
 
-        <muleSchedulerServiceVersion>1.2.0-SNAPSHOT</muleSchedulerServiceVersion>
-        <muleHttpServiceVersion>1.4.0-SNAPSHOT</muleHttpServiceVersion>
-        <muleOAuthServiceVersion>1.2.0-SNAPSHOT</muleOAuthServiceVersion>
-        <muleSoapServiceVersion>1.2.0-SNAPSHOT</muleSoapServiceVersion>
+        <muleSchedulerServiceVersion>1.2.0</muleSchedulerServiceVersion>
+        <muleHttpServiceVersion>1.4.0</muleHttpServiceVersion>
+        <muleOAuthServiceVersion>1.2.0</muleOAuthServiceVersion>
+        <muleSoapServiceVersion>1.2.0</muleSoapServiceVersion>
     </properties>
 
     <scm>
