@@ -4,6 +4,7 @@ def UPSTREAM_PROJECTS_LIST = [ "Mule-runtime/mule-extensions-parent/1.1.x",
                                "Mule-runtime/mule-scheduler-service/1.1.x",
                                "Mule-runtime/mule-soap-service/1.1.x" ]
 
-Map pipelineParams = [ "upstreamProjects" : UPSTREAM_PROJECTS_LIST.join(',') ]
+Map pipelineParams = [ "upstreamProjects" : UPSTREAM_PROJECTS_LIST.join(','),
+                       "projectType" : "Runtime" ]
 
-runtimeProjectsBuild(pipelineParams)
+runtimeBuild(pipelineParams)
