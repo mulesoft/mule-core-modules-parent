@@ -9,10 +9,10 @@
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
         <version>1.2.1-SNAPSHOT</version>
+        <relativePath/>
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
-    <version>1.2.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Mule Core Modules Parent POM</name>
