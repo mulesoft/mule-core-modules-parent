@@ -5,3 +5,4 @@ upstreamProjects:
   Mule-runtime/mule-scheduler-service/master,
   Mule-runtime/mule-soap-service/master
 projectType: runtime
+enableMavenTestStage: false
