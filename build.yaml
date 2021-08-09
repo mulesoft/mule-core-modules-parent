@@ -6,3 +6,4 @@ upstreamProjects:
   Mule-runtime/mule-soap-service/master
 projectType: runtime
 enableMavenTestStage: false
+devBranchesRegex: "1\\.4\\.0"
