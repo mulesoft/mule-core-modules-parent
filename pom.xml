@@ -24,6 +24,8 @@
         <allureJunitVersion>2.8.1</allureJunitVersion>
         <allureReportVersion>2.8.1</allureReportVersion>
         <allure.maven.plugin.version>2.9</allure.maven.plugin.version>
+        <junitVersion>4.13.2</junitVersion>
+        <hamcrestVersion>2.2</hamcrestVersion>
         <jacoco.version>0.8.6</jacoco.version>
         <javaFormatter.plugin.version>2.14.0</javaFormatter.plugin.version>
         <javaVersion>1.8</javaVersion>
@@ -57,6 +59,19 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit4</artifactId>
             <version>${allureJunitVersion}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junitVersion}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>${hamcrestVersion}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
