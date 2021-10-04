@@ -33,7 +33,7 @@
         <exportedPackagesValidator.strictValidation>true</exportedPackagesValidator.strictValidation>
 
         <muleSchedulerServiceVersion>1.5.0-20210917</muleSchedulerServiceVersion>
-        <muleHttpServiceVersion>1.7.0-20210917</muleHttpServiceVersion>
+        <muleHttpServiceVersion>1.7.0-20211001</muleHttpServiceVersion>
         <muleOAuthServiceVersion>2.2.0-20210917</muleOAuthServiceVersion>
         <muleSoapServiceVersion>1.5.0-20210917</muleSoapServiceVersion>
     </properties>
