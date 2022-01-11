@@ -32,7 +32,10 @@
         <skipVerifications>false</skipVerifications>
         <exportedPackagesValidator.strictValidation>true</exportedPackagesValidator.strictValidation>
 
-        <muleBomVersion>4.4.1-SNAPSHOT</muleBomVersion>
+        <muleSchedulerServiceVersion>1.4.0</muleSchedulerServiceVersion>
+        <muleHttpServiceVersion>1.6.0</muleHttpServiceVersion>
+        <muleOAuthServiceVersion>2.1.0</muleOAuthServiceVersion>
+        <muleSoapServiceVersion>1.4.0</muleSoapServiceVersion>
     </properties>
 
     <scm>
@@ -45,6 +48,7 @@
         <dependency>
             <groupId>org.mule.services</groupId>
             <artifactId>mule-service-scheduler</artifactId>
+            <version>${muleSchedulerServiceVersion}</version>
             <classifier>mule-service</classifier>
             <scope>provided</scope>
         </dependency>
@@ -56,18 +60,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.mule</groupId>
-                <artifactId>mule-runtime-bom</artifactId>
-                <version>${muleBomVersion}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <plugins>
