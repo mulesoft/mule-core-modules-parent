@@ -32,7 +32,7 @@
         <skipVerifications>false</skipVerifications>
         <exportedPackagesValidator.strictValidation>true</exportedPackagesValidator.strictValidation>
 
-        <muleSchedulerServiceVersion>1.4.0</muleSchedulerServiceVersion>
+        <muleSchedulerServiceVersion>1.4.2</muleSchedulerServiceVersion>
         <muleHttpServiceVersion>1.6.7</muleHttpServiceVersion>
         <muleOAuthServiceVersion>2.1.0</muleOAuthServiceVersion>
         <muleSoapServiceVersion>1.4.0</muleSoapServiceVersion>
