@@ -32,7 +32,7 @@
         <skipVerifications>false</skipVerifications>
         <exportedPackagesValidator.strictValidation>true</exportedPackagesValidator.strictValidation>
 
-        <muleBomVersion>4.5.0-rc6</muleBomVersion>
+        <muleBomVersion>4.5.0-rc7</muleBomVersion>
     </properties>
 
     <scm>
