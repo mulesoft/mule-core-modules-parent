@@ -8,12 +8,12 @@
     <parent>
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
-        <version>1.5.1-SNAPSHOT</version>
+        <version>1.5.2-SNAPSHOT</version>
         <relativePath></relativePath>
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
-    <version>1.5.1-SNAPSHOT</version>
+    <version>1.5.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Mule Core Modules Parent POM</name>
@@ -32,7 +32,7 @@
         <skipVerifications>false</skipVerifications>
         <exportedPackagesValidator.strictValidation>true</exportedPackagesValidator.strictValidation>
 
-        <muleBomVersion>4.5.1-SNAPSHOT</muleBomVersion>
+        <muleBomVersion>4.5.2-SNAPSHOT</muleBomVersion>
 
         <mulesoftLicenseVersion>1.4.0</mulesoftLicenseVersion>
         <license.maven.plugin.version>4.2</license.maven.plugin.version>
