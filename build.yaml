@@ -3,6 +3,6 @@ upstreamProjects:
   Mule-runtime/mule-http-service/1.7.2,
   Mule-runtime/mule-oauth-service/2.2.0,
   Mule-runtime/mule-scheduler-service/1.5.0,
-  Mule-runtime/mule-soap-service/support/1.5.x
+  Mule-runtime/mule-soap-service/1.5.2
 projectType: runtime
 enableMavenTestStage: false
