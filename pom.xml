@@ -32,7 +32,7 @@
         <skipVerifications>false</skipVerifications>
         <exportedPackagesValidator.strictValidation>true</exportedPackagesValidator.strictValidation>
 
-        <muleBomVersion>4.5.4-rc2</muleBomVersion>
+        <muleBomVersion>4.5.4</muleBomVersion>
 
         <mulesoftLicenseVersion>1.4.0</mulesoftLicenseVersion>
         <license.maven.plugin.version>4.2</license.maven.plugin.version>
