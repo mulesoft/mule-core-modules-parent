@@ -3,6 +3,6 @@ upstreamProjects:
   Mule-runtime/mule-http-service/master-MAY-2024,
   Mule-runtime/mule-oauth-service/master-MAY-2024,
   Mule-runtime/mule-scheduler-service/master-MAY-2024,
-  Mule-runtime/mule-soap-service/master
+  Mule-runtime/mule-soap-service/master-MAY-2024
 projectType: runtime
 enableMavenTestStage: false
