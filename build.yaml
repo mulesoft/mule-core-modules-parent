@@ -1,5 +1,5 @@
 upstreamProjects:
-  Mule-runtime/mule-extensions-parent/master,
+  Mule-runtime/mule-extensions-parent/master-MAY-2024,
   Mule-runtime/mule-http-service/master-MAY-2024,
   Mule-runtime/mule-oauth-service/master-MAY-2024,
   Mule-runtime/mule-scheduler-service/master-MAY-2024,
