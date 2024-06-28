@@ -13,7 +13,7 @@
     </parent>
 
     <artifactId>mule-core-modules-parent</artifactId>
-    <version>1.6.5-SNAPSHOT</version>
+    <version>1.6.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Mule Core Modules Parent POM</name>
