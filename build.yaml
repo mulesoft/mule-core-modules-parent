@@ -1,5 +1,5 @@
 upstreamProjects:
-  Mule-runtime/mule-extensions-parent/support/1.7.x,
+  Mule-runtime/mule-extensions-parent/1.7.2-DRY-RUN,
   Mule-runtime/mule-http-service/1.9.2-DRY-RUN,
   Mule-runtime/mule-oauth-service/2.4.2-DRY-RUN,
   Mule-runtime/mule-scheduler-service/1.7.2-DRY-RUN,
