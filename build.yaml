@@ -3,6 +3,6 @@ upstreamProjects:
   Mule-runtime/mule-http-service/1.8.6-DRY-RUN,
   Mule-runtime/mule-oauth-service/2.3.6-DRY-RUN,
   Mule-runtime/mule-scheduler-service/1.6.6-DRY-RUN,
-  Mule-runtime/mule-soap-service/support/1.6.x
+  Mule-runtime/mule-soap-service/1.6.6-DRY-RUN
 projectType: runtime
 enableMavenTestStage: false
