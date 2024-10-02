@@ -20,7 +20,7 @@
     <description>Mule modules that augment the core Mule functionality through the Mule Extension API</description>
 
     <properties>
-        <aspectjVersion>1.9.2</aspectjVersion>
+        <aspectjVersion>1.9.22.1</aspectjVersion>
         <allureJunitVersion>2.8.1</allureJunitVersion>
         <allureReportVersion>2.8.1</allureReportVersion>
         <allure.maven.plugin.version>2.9</allure.maven.plugin.version>
