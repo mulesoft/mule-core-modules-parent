@@ -34,7 +34,7 @@
         <muleBomVersion>4.10.0-SNAPSHOT</muleBomVersion>
 
         <mulesoftLicenseVersion>1.4.0</mulesoftLicenseVersion>
-        <license.maven.plugin.version>4.2</license.maven.plugin.version>
+        <license.maven.plugin.version>4.6</license.maven.plugin.version>
         <licensePath>LICENSE_HEADER.txt</licensePath>
         <licenseYear>2023</licenseYear>
     </properties>
