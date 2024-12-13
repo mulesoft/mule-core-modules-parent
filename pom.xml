@@ -21,7 +21,7 @@
 
     <properties>
         <aspectjVersion>1.9.2</aspectjVersion>
-        <allureJunitVersion>2.8.1</allureJunitVersion>
+        <allureJunitVersion>2.29.1</allureJunitVersion>
         <allureReportVersion>2.8.1</allureReportVersion>
         <allure.maven.plugin.version>2.9</allure.maven.plugin.version>
         <jacoco.version>0.8.11</jacoco.version>
