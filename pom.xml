@@ -35,7 +35,7 @@
         <muleSchedulerServiceVersion>1.4.0</muleSchedulerServiceVersion>
         <muleHttpServiceVersion>1.6.25-SNAPSHOT</muleHttpServiceVersion>
         <muleOAuthServiceVersion>2.1.0</muleOAuthServiceVersion>
-        <muleSoapServiceVersion>1.4.14-SNAPSHOT</muleSoapServiceVersion>
+        <muleSoapServiceVersion>1.4.15-SNAPSHOT</muleSoapServiceVersion>
     </properties>
 
     <scm>
