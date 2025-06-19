@@ -3,6 +3,6 @@ upstreamProjects:
   Mule-runtime/mule-http-service/master-TESTCYCLE-2020-DRY-RUN,
   Mule-runtime/mule-oauth-service/master-TESTCYCLE-2020-DRY-RUN,
   Mule-runtime/mule-scheduler-service/master-TESTCYCLE-2020-DRY-RUN,
-  Mule-runtime/mule-soap-service/1.8.1
+  Mule-runtime/mule-soap-service/1.9.0-DRY-RUN
 projectType: runtime
 enableMavenTestStage: false
